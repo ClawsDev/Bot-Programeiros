@@ -1,3 +1,5 @@
+//Coded by Equipe Programeiros Inc
+
 const clear = require('clear');
 const TelegramBot = require('node-telegram-bot-api');
 const token = '529598378:AAF3ih9mDOFKBG67DPdzU4grFA97lfztaPY';
@@ -7,7 +9,7 @@ const serverProgrameiros = "=======  Programeiros Bot Server ======="
 
 //Logs
 function iniciaServer(){
-  
+  console.log("========================================");
   console.log(serverProgrameiros);
   console.log("\n\tServer Iniciado com sucesso...");
   console.log('\nToken usado:', token);
